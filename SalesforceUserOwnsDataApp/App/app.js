@@ -2,6 +2,7 @@
 let clientId = "41273936-c772-4859-8562-223ec9d13cc9";
 let tenant = "joannahajne.onmicrosoft.com";
 let authority = "https://login.microsoftonline.com/" + tenant;
+let reportId = "36e69c6c-deaa-4477-8296-8bd77a6a9dd8"
 
 const msalConfig = {
   auth: {
