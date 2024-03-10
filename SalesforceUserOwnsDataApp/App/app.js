@@ -41,7 +41,7 @@ $(async function () {
   "filter"
 
   if (!reportId) {
-    DisplayError("The report is not configured with a valid report ID.");
+    DisplayError("Hello! The report is not configured with a valid report ID.");
     return;
   }
 
