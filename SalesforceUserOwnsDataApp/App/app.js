@@ -37,7 +37,8 @@ const requestScopes = {
 $(async function () {
 
   const params = new URLSearchParams(window.location.search)
-  let reportId = params.get("36e69c6c-deaa-4477-8296-8bd77a6a9dd8");
+  let reportId = "36e69c6c-deaa-4477-8296-8bd77a6a9dd8"
+  //let reportId = params.get("reportId");
   "filter"
 
   if (!reportId) {
@@ -97,7 +98,7 @@ let EmbedReport = function (token, reportId) {
   reportLoadConfig = {
     type: "report",
     id: reportId,
-    embedUrl: "https://app.powerbi.com/reportEmbed?reportId=36e69c6c-deaa-4477-8296-8bd77a6a9dd8",
+    embedUrl: "https://app.powerbi.com/reportEmbed",
     accessToken: token,
     tokenType: models.TokenType.Aad,
     settings: {
