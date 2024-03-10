@@ -37,7 +37,7 @@ const requestScopes = {
 $(async function () {
 
   const params = new URLSearchParams(window.location.search)
-  let reportId = params.get("reportId");
+  let reportId = params.get("36e69c6c-deaa-4477-8296-8bd77a6a9dd8");
   "filter"
 
   if (!reportId) {
